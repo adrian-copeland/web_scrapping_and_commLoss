@@ -13,7 +13,7 @@ import win32com.client as win32
 # from selenium.webdriver.chrome.service import Service
 # from selenium.common.exceptions import TimeoutException , NoSuchElementException
 
-DOWNLOAD_DIR = os.path.join(os.getcwd(), "list_downloaded")
+DOWNLOAD_DIR = os.path.join(os.getcwd(), "lists_downloaded")
 if not os.path.exists(DOWNLOAD_DIR):
     os.makedirs(DOWNLOAD_DIR)
 
